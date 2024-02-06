@@ -69,7 +69,8 @@
   },
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
-    "build": "tsc && nodemon dist/server.js"
+    "build": "tsc && nodemon dist/server.js",
+    "start": "node src/server.ts"
   },
   "author": "",
   "license": "ISC"
